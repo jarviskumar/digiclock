@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+  <title>Digital Clock</title>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    /* body {
+      background-color: black !important;
+    } */
+
+    body {
+      background-image: url("https://images.pexels.com/photos/1276518/pexels-photo-1276518.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+      background-size: cover;
+      background-repeat: no-repeat;
+      user-select: none;
+      -webkit-user-select: none;
+      -ms-user-select: none;
+
+    }
+
+    .clock {
+      margin-top: 30vh;
+      font-size: 3rem;
+      font-family: 'Poppins', sans-serif;
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container d-flex text-srink flex-column justify-content-center align-item-center" style="height:100vh;">
+
+    <div class="card border-0 text-wrap bg-transparent text-body">
+      <div class="card-body ">
+
+        <div class="card-title display-1 fw-semibold text-center text-white " id="myClock">00 : 00 : 00 AM 
+        </div>
+        <br>
+
+        <p class="text-center display-3 text-white" id="DaysScr">sunday</p>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- script for clock -->
+  <script src="script.js">
+   
+
+  </script>
+
+  <!-- Bootstrap Script -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
